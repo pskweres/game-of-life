@@ -1,6 +1,6 @@
 $HADOOP_HOME/bin/hdfs dfs -rm -r output
 
-$HADOOP_HOME/bin/yarn jar gol.jar org.apache.giraph.GiraphRunner pdd.DummyComputation \
+$HADOOP_HOME/bin/yarn jar gol.jar org.apache.giraph.GiraphRunner pdd.GameOfLifeComputation \
     --yarnjars pdd.jar \
     --workers 1 \
     --vertexInputFormat pdd.VertexStateInputFormat \
