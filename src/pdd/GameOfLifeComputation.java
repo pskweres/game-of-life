@@ -23,7 +23,7 @@ import pdd.VertexStateWritable;
 public class GameOfLifeComputation extends BasicComputation<LongWritable, VertexStateWritable, DoubleWritable, DoubleWritable> {
     
     private static int MAX_VALUE = 100;
-    private static int MAGIC_NUMBER = 42;
+    private static int MAGIC_NUMBER = 13;
     private static int MAX_STEPS = 200;
 
     @Override
